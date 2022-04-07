@@ -1,0 +1,91 @@
+@import url(https://a374ru.github.io/aprakos.ru/css/indexday.css);
+
+@font-face {
+  font-family: 'Evangeliecs';
+  font-display: auto;
+  src: url('https://a374ru.github.io/aprakos.ru/font/Evangeliecs-Regular.woff')
+      format('woff'),
+    url('https://a374ru.github.io/aprakos.ru/font/Evangeliecs-Regular.ttf')
+      format('truetype'),
+    url('https://a374ru.github.io/aprakos.ru/font/Evangeliecs-Regular.svg')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.evangeliecs,
+.irmologion {
+  font-size: clamp(2rem, 2vw, 3rem);
+}
+
+body {
+  margin: 3em;
+}
+
+.section {
+  min-height: 100%;
+  display: grid;
+
+  grid-template:
+    'a b b'
+    'a b b'
+    'a c c'
+    'a d d'
+    / 0.2fr 1fr;
+}
+
+.fonts1 {
+  grid-area: a;
+}
+.fonts {
+  grid-area: b;
+}
+.fonts2 {
+  grid-area: c;
+}
+.fonts4 {
+  grid-area: d;
+}
+.r {
+  font-size: 533px;
+  color: #fff;
+  text-shadow: 0px 0px 52px #e3423477, -12px 222px 3px #f6d6fcb5,
+    -12px 422px 3px #fcbebe44;
+  z-index: 3;
+}
+
+.f {
+  grid-area: f;
+  font-size: 3em;
+  text-shadow: 0px 1px 13px #e3423444;
+}
+
+.knvr {
+  color: #e34234;
+}
+
+hr {
+  width: 88%;
+  margin: 20px 0;
+  padding: 0;
+  height: 2px;
+  border: none;
+  background: linear-gradient(-45deg, #e3423477, #fff);
+}
+
+@media (max-width: 660px) {
+  .r {
+    display: inline;
+    font-size: 133px;
+    text-shadow: 0px 0px 52px #e3423477;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 454px) {
+  .r {
+    /* display: block; */
+    font-size: 133px;
+    text-shadow: 0px 0px 52px #e3423477;
+    margin-right: 1rem;
+  }
+}
