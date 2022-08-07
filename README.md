@@ -1,3 +1,5 @@
 # fontstest
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/fontstest)
+
+
+[Пример с кодом здесь…](https://codepen.io/Olhovka-90/pen/YaaZPz)
