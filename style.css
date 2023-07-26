@@ -14,7 +14,7 @@
 }
 .evangeliecs,
 .irmologion {
-  font-size: clamp(2rem, 2vw, 3rem);
+font-size: clamp(2rem, 2vw, 3rem);
 }
 
 body {
@@ -33,15 +33,22 @@ body {
     / 0.2fr 1fr;
 }
 
+
+
 .fonts1 {
   grid-area: a;
 }
 .fonts {
   grid-area: b;
+  font-family:     var(--font-var);
 }
 .fonts2 {
   grid-area: c;
 }
+.fonts3{
+    font-family: var(--font-var);
+}
+
 .fonts4 {
   grid-area: d;
 }
@@ -57,6 +64,7 @@ body {
   grid-area: f;
   font-size: 3em;
   text-shadow: 0px 1px 13px #e3423444;
+
 }
 
 .knvr {
